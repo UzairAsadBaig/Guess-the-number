@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <!-- TODO: ------------------- Required meta tags ------------------>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--TODO:----- Google Fonts(Optional) Roboto -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"> -->
+    <!--TODO:----- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--TODO:----- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    <!--TODO:------------- Custom Personalize css  -------------->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--TODO:-------------- Animation.css links(Please Include anim folder)  -------------->
+    <link rel="stylesheet" href="anim/css/libs/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+    <title></title>
+    <!--TODO:------ Adding icon of Max size of (100 X 100) in Tab bar -->
+    <link rel="shortcut icon" href="img/">
+</head>
+
+<body>
+    <div class="container-fluid text-white">
+        <div class="row ">
+            <div class="col-6 ">
+                <button type="button" class="btn btn-white" id="again">Again!</button>
+            </div>
+
+            <div class="col-6 row justify-content-end">
+                <span id="between">(Between 1 and 20)</span>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12 row justify-content-center">
+                <h1 class="h1-responsive">Guess My Number</h1>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <hr id=" block-line" class="white">
+    <div class=" row justify-content-center">
+        <!-- <div class="col-5"></div> -->
+        <div class="  white" id="answerBox">?</div>
+        <!-- <div class="col-5"></div> -->
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6" id="inputSide">
+                <div><input type="number" id="data"></div>
+                <div><button type="button" class="btn btn-white" id="check">Check!</button></div>
+            </div>
+            <div class="col-6">
+
+                <h5 class=" text-white h5-responsive">Start&nbsp;guessing&nbsp;...</h5>
+                <div class="text-white">💯 Score: <span id="score">20</span></div>
+                <div class="text-white">🥇 High Score: <span id="hiscore">0</span></div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--TODO:----- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--TODO:----- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!--TODO:----- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!--TODO:----- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <!--TODO:----- Customize(User) JavaScript -->
+    <script src="js/script.js"></script>
+    <!--TODO:------------ Font awesome icons link  -------------->
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+
+    <!--TODO:---------- Wow.js link and then script for scrolling animation  -------------->
+    <script src="anim/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
